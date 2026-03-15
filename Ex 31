@@ -1,5 +1,4 @@
 #declarar
-numero: int = 0
 contador: int = 0
 
 #inicio
