@@ -1,0 +1,12 @@
+#declarar
+numero: float = 0.0
+contador: int = 1
+resultado: float = 0.0
+
+#inicio
+numero = float(input("Digite seu número: "))
+while (contador <= numero):
+    resultado = resultado + 1/contador 
+    contador += 1
+print ("A soma da série do seu número é:",resultado)
+#fim
