@@ -1,0 +1,9 @@
+#declarar
+numero: int = 0
+contador: int = 0
+
+#inicio
+for contador in range (10,149):
+    contador += 1
+    print (contador*contador)
+#fim
