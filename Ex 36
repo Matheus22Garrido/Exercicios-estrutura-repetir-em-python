@@ -1,0 +1,17 @@
+#declarar
+contador: int = 1
+numero: int = 0
+fatorial: int = 1
+Reserva: int = 0
+
+#inicio
+numero = int(input("Digite o seu numero: "))
+if (numero == 1):
+    print (1)
+else:
+    while (contador+1 <= numero):
+        fatorial *= contador
+        Reserva += 1/(fatorial)
+        contador += 1
+    print(Reserva+1)
+#fim
