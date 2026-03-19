@@ -1,0 +1,16 @@
+#declarar 
+n1: int = 1
+n2: int = 1
+n3: int = 0
+contador: int = 1
+numero: int = 0
+
+#inicio
+numero = int(input("Digite o seu numero: "))
+while (contador <= numero):
+    print (n1)
+    n3 += n2
+    n2 = n1
+    n1 = n3
+    contador+=1
+#fim
