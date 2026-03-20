@@ -1,0 +1,23 @@
+#declarar
+menor: int = 0
+maior: int = 0
+valor: int = 0
+contador: int = 1
+
+#inicio 
+print ("Digite um número positivo: ")
+while (contador<=5):
+    valor = int(input("Digite seu número: "))
+    if (contador == 1):
+        menor = valor
+        maior = valor
+    if (valor<1):
+        print("Burro")
+        continue
+    contador += 1
+    if (valor<menor):
+        menor = valor
+    elif (valor>= maior):
+        maior = valor
+print("Seu maior número é: ",maior)
+print("Seu menor número é: ",menor)
