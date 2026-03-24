@@ -1,0 +1,21 @@
+#declarar
+valor1: int = 0
+valor2: int = 0
+reserva: int = 0
+contador: int = 1
+primo: bool
+
+#inicio
+valor1 = int(input("Digite seu primeiro valor: "))
+valor2 = int(input("Digite seu segundo valor: "))
+if valor1>valor2:
+    valor2,valor1=valor1,valor2
+for reserva in range (valor1+1, valor2):
+    if reserva>1:
+        primo = True
+        for contador in range (2,reserva):
+            if reserva%contador==0:
+                primo = False
+                break
+        if primo == True:
+            print (f"O número {reserva} está entre {valor1} e {valor2} e é primo")
