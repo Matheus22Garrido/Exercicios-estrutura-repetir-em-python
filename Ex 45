@@ -1,0 +1,19 @@
+#declarar
+contador: int = 1
+reserva: float = 0.0
+total: float = 0.0
+
+#inicio
+while (contador<=15):
+    if (contador%2==0):
+        reserva = -(contador)/(contador**2)
+        print(reserva)
+        total += reserva
+        contador += 1
+    elif (contador%2!=0):
+        reserva = (contador)/(contador**2)
+        print (reserva)
+        total += reserva
+        contador += 1
+print ("A soma de todos os números da sequencia é:",total)
+#fim
