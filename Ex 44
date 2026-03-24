@@ -1,0 +1,11 @@
+#declarar
+base: int = 0
+expoente: int = 0
+resultado: int = 0
+
+#inicio
+base = int(input("Digite a base: "))
+expoente = int(input("Digite o expoente: "))
+resultado = base**expoente
+print("O valor da potência é:",resultado)
+#fim
