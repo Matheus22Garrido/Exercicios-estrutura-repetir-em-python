@@ -1,0 +1,14 @@
+#declarar
+contador: int = 0
+resultado: float = 0.0
+reserva: float = 0.0
+
+
+#inicio
+while (contador<50):
+    reserva = (1+1*contador)/(1+2*contador)
+    resultado += reserva
+    contador += 1
+    print (reserva)
+print ("A soma de todos os números da sequência é:",resultado)
+#fim
