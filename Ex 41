@@ -1,0 +1,11 @@
+#declarar
+dado1: int = 0
+dado2: int = 0
+
+#inicio
+print("Possibilidades de 2 dados com soma 7:")
+for dado1 in range(1, 7):
+    for dado2 in range(1, 7):
+        if (dado1 + dado2) == 7:
+            print(f"A soma dos dados da 7 quando: dado 1 = {dado1} e dado 2 ={dado2}")
+#fim
