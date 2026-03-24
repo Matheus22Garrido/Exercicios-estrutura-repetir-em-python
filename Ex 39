@@ -1,0 +1,11 @@
+#declarar
+total: int = 0
+contador: int = 0
+n64: int = 2**63
+
+#inicio
+while (contador<=63):
+    total+= 2**contador
+    contador += 1
+print("A quantidade de grãos que cabem em todas as casas somadas é de:",total,"e a quantidade só na ultima casa é de:",n64)
+#fim
