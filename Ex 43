@@ -1,0 +1,10 @@
+#declarar
+anos: int = 0
+altura_maria: int =150
+altura_ana: int = 110
+
+#inicio
+while (altura_ana+3*anos<altura_maria+2*anos):
+    anos += 1
+print ("Em",anos,"anos, Ana será maior que Maria")
+#fim
